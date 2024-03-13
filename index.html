@@ -1,42 +1,180 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Facebook Sign Up</title>
-</head>
-<body>
-    <h1>Sign Up For Facebook</h1>
-  
-  <form>
-    <label for="firstName">First Name:</label><br>
-    <input type="text" id="firstName" name="firstName" required><br><br>
-    
-    <label for="lastName">Last Name:</label><br>
-    <input type="text" id="lastName" name="lastName" required><br><br>
-    
-    <label for="email">Phone number or email address:</label><br>
-    <input type="email " id="email" name="email" required><br><br>
-    
-    <label for="password">New password:</label><br>
-    <input type="password" id="password" name="password" required><br><br>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <label for="gender">Gender:</label><br>
-    <select name="gender" id="gender" required>
-      <option value=""></option>
-      <option value="">Male</option>
-      <option value="">Female</option>
-      <option value="">Custom</option>
-    </select>
-    <p>Select Custom to choose another gender, or if you'd rather not say</p><br><br>
-    
-    <label for="birthdate">Date of birth:</label><br>
-    <input type="date" id="birthdate" name="birthdate" required><br><br>
-    <p>People who use our service may have uploaded your contact information to Facebook. <a href="#">Learn more</a><br>By tapping Sign Up, you agree to our <a href="#">Terms , Privacy Policy</a>and <a href="#">Cookie Policy</a>You may receive <br> SMS notifications from us and can opt out at any time</p><br><br>
-    
-    <input type="submit" value="Sign Up">
-  </form>
+        <link rel="stylesheet" href="assets/css/styles.css">
 
-</body>
+        <!-- =====BOX ICONS===== -->
+        <link href='https://cdn.jsdelivr.net/npm/boxicons@2.0.5/css/boxicons.min.css' rel='stylesheet'>
+
+        <title>Abdul Sudais - Author</title>
+    </head>
+    <body>
+        <!--===== HEADER =====-->
+        <header class="l-header">
+            <nav class="nav bd-grid">
+                <div>
+                    <a href="index.html" class="nav__logo">Abdul Sudais - Author</a>
+                </div>
+
+                <div class="nav__menu" id="nav-menu">
+                    <ul class="nav__list">
+                        <li class="nav__item"><a href="#home" class="nav__link active-link">Home</a></li>
+                        <li class="nav__item"><a href="#about" class="nav__link">About</a></li>
+                        <li class="nav__item"><a href="#skills" class="nav__link">Skills</a></li>
+                        <li class="nav__item"><a href="#work" class="nav__link">Books</a></li>
+                    </ul>
+                </div>
+
+                <div class="nav__toggle" id="nav-toggle">
+                    <i class='bx bx-menu'></i>
+                </div>
+            </nav>
+        </header>
+
+        <main class="l-main" style="background-image: linear-gradient(to right, #bdc3c7 0%, #2c3e50 100%);">
+            <!--===== HOME =====-->
+            <section class="home bd-grid" id="home">
+                <div class="home__data">
+                    <h1 class="home__title"><br>Abdul <span class="home__title-color">Sudais</span><br> Fiction Writer</h1>
+                    <p style="color: black;">Offering the Best Fiction Stories to My Readers.</p>
+                    <br>
+                    <a href="https://chat.whatsapp.com/Iev97zk2vGJLjxUJz4U8A2" class="button">Contact</a>
+                </div>
+            </section>
+
+            <!--===== ABOUT =====-->
+            <section class="about section " id="about">
+                <h2 class="section-title">About The Author</h2>
+
+                <div class="about__container bd-grid">
+                    <div class="about__img">
+                        <img src="assets/img/kimberly-farmer-lUaaKCUANVI-unsplash.jpg" alt="">
+                    </div>
+                    
+                    <div>
+                        <h2 class="about__subtitle">I'am Abdul Sudais</h2>
+                        <p class="about__text">I am a skilled fiction writer with a passion for creating captivating stories. With years of experience, I have honed my skills in crafting unique and engaging narratives that keep readers hooked until the very end. My writing style is versatile and I am always open to exploring new genres and techniques to challenge myself and provide readers with fresh and exciting stories.</p>           
+                    </div>                                   
+                </div>
+            </section>
+
+            <!--===== SKILLS =====-->
+            <section class="skills section" id="skills">
+                <h2 class="section-title">My Expertise</h2>
+
+                <div class="skills__container bd-grid">          
+                    <div>
+                        <h2 class="skills__subtitle"></h2>
+                        <p class="skills__text">I have expertise in creating captivating fiction stories.</p>
+                        <div class="skills__data">
+                            <div class="skills__names">
+                                <i class='bx bxs-paint skills__icon'></i>
+                                <span class="skills__name">Creative Writing</span>
+                            </div>
+                            <div class="skills__bar skills__html">
+
+                            </div>
+                            <div>
+                                <span class="skills__percentage">95%</span>
+                            </div>
+                        </div>
+                        <div class="skills__data">
+                            <div class="skills__names">
+                                <i class='bx bxs-paint skills__icon'></i>
+                                <span class="skills__name">Plot Development</span>
+                            </div>
+                            <div class="skills__bar skills__css">
+                                
+                            </div>
+                            <div>
+                                <span class="skills__percentage">90%</span>
+                            </div>
+                        </div>
+                        <div class="skills__data">
+                            <div class="skills__names">
+                                <i class='bx bxs-paint skills__icon' ></i>
+                                <span class="skills__name">Editing & Proofreading</span>
+                            </div>
+                            <div class="skills__bar skills__js">
+                                
+                            </div>
+                            <div>
+                                <span class="skills__percentage">85%</span>
+                            </div>
+                        </div>
+                        <div class="skills__data">
+                            <div class="skills__names">
+                                <i class='bx bxs-paint skills__icon'></i>
+                                <span class="skills__name">Storytelling</span>
+                            </div>
+                            <div class="skills__bar skills__ux">
+                                
+                            </div>
+                            <div>
+                                <span class="skills__percentage">99%</span>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div>              
+                        <img src="assets/img/andrew-neel-cckf4TsHAuw-unsplash.jpg" alt="" class="skills__img">
+                    </div>
+                </div>
+            </section>
+
+            <!--===== WORK =====-->
+            <section class="work section" id="work">
+                <h2 class="section-title">My Books</h2>
+
+               <span> <center><p>Cick To Download</p></center>
+                <br>
+                <div class="work__container bd-grid">
+                   <center><p style="color: black; font-weight: bold; font-family: 'Times New Roman', Times, serif; "> The Electrocutor
+                    <a href="https://www.playbook.com/s/abdul-sudais/EFE2aLZj87H7QHMEtdPFmgZd?assetToken=9weyV4MEnKPcNASkBsoPa5Fd" class="work__img">
+                        <img src="assets/img/Electrocutor Cover.jpg" alt="">
+                    </a>
+                   </p></center>
+                   <center><p style="color: black; font-weight: bold; font-family: 'Times New Roman', Times, serif; "> The Special Investigators I
+                    <a href="https://www.playbook.com/s/abdul-sudais/Q79yCKbfQ2Myk7r28bYQiX7i?assetToken=qioYv1ESpEanRdRXUG1ME43E" class="work__img">
+                        <img src="assets/img/The Special Investigation - Cover.jpg" alt="">
+                    </a>
+                   </p></center>
+                    <center><p style="color: black; font-weight: bold; font-family: 'Times New Roman', Times, serif; "> The Special Investigators II
+                        <a href="https://www.playbook.com/s/abdul-sudais/TyMtXqVQJrqyV2y2vUjN1t9u?assetToken=f5NvACJaMFL1dkfmGaWQtBmC" class="work__img">
+                            <img src="assets/img/The Special Investigation - Cover.jpg" alt="">
+                        </a>
+                    </p></center>
+
+
+
+                </div>
+               </span>
+            </section>
+            <!--===== WORK =====-->
+
+
+            <!--===== CONTACT =====-->
+
+        </main>
+
+        <!--===== FOOTER =====-->
+        <footer class="footer">
+            <p class="footer__title">Abdul Sudais</p>
+            <div class="footer__social">
+                <a href="https://www.facebook.com/abdul.sudais.773" class="footer__icon"><i class='bx bxl-facebook' ></i></a>
+                <a href="https://chat.whatsapp.com/Iev97zk2vGJLjxUJz4U8A2" class="footer__icon"><i class='bx bxl-whatsapp' ></i></a>
+            </div>
+            <p class="footer__copy">&#169; <a href="https://ultimatallaince.freelancr.site/#hero1" style="color: azure; "> <u>Abdul Sudais. </u></a>All rigths reserved</p>
+        </footer>
+
+
+        <!--===== SCROLL REVEAL =====-->
+        <script src="https://unpkg.com/scrollreveal"></script>
+
+        <!--===== MAIN JS =====-->
+        <script src="assets/js/main.js"></script>
+    </body>
 </html>
